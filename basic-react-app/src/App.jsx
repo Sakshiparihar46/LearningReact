@@ -6,14 +6,16 @@ import Todo from './todoList'
 import Lottery from './lottery'
 import Ticket from './Ticket.jsx'
 import {sum} from "./helper"
+import Form from "./form.jsx"
 function App() {
-  let winCondition=(ticket)=>{
-    return ticket.every((num)=>num===ticket[0]);
-  }
+//   let winCondition=(ticket)=>{
+//     return ticket.every((num)=>num===ticket[0]);
+//   }
   return (
     <>
-      <Lottery n={3} winCondition={winCondition}/>
+      <Form/>
     </>
+      
   )
 }
 
