@@ -1,0 +1,18 @@
+closure: a closure is a feature in java script where an inner function has access to the outer(enclosing
+)
+
+hooks:
+hooks were a new addition in react 16.8
+ they let you use state and other react featurea without writing a class
+hooks=15
+setState =updater bcz it used for updating the state to a different value and trigger now
+
+lifting state up concept
+
+components types
+1.logical/smart/have state varibles
+2.presentation/dump only show ui/they do not  have state variable/props
+
+//function as probs
+//js functions are 1st class objects
+//this means they can be passes to a function as argument,returned from it & assigned to a variable.
