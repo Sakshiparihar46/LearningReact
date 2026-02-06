@@ -7,13 +7,14 @@ import Lottery from './lottery'
 import Ticket from './Ticket.jsx'
 import {sum} from "./helper"
 import Form from "./form.jsx"
+import CommentsForm from './commentsForm.jsx'
 function App() {
 //   let winCondition=(ticket)=>{
 //     return ticket.every((num)=>num===ticket[0]);
 //   }
   return (
     <>
-      <Form/>
+      <CommentsForm/>
     </>
       
   )
