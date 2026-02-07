@@ -16,3 +16,12 @@ components types
 //function as probs
 //js functions are 1st class objects
 //this means they can be passes to a function as argument,returned from it & assigned to a variable.
+
+
+//useFormik
+for validatin we can use formik .
+
+UseEffect()
+thr hook lets you perform side effect in function components
+
+data fetching, stting up a subscription and manually changing the dom in react components are all examples of side effects.
