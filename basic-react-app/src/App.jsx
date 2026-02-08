@@ -9,13 +9,14 @@ import {sum} from "./helper"
 import Form from "./form.jsx"
 import CommentsForm from './commentsForm.jsx'
 import Comment from './comments.jsx'
+import Joker from './joker.jsx'
 function App() {
 //   let winCondition=(ticket)=>{
 //     return ticket.every((num)=>num===ticket[0]);
 //   }
   return (
     <>
-      <Counter/>
+      <Joker/>
       
     </>
       
